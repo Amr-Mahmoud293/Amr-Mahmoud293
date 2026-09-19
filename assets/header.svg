@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Amr Mahmoud, Full-Stack MEAN Stack Developer">
+  <title>Amr Mahmoud - Full-Stack Developer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020C1B"/>
+      <stop offset="0.55" stop-color="#061B33"/>
+      <stop offset="1" stop-color="#03045E"/>
+    </linearGradient>
+
+    <radialGradient id="glowR" cx="0.78" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00B4D8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#00B4D8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowL" cx="0.08" cy="0.1" r="0.45">
+      <stop offset="0" stop-color="#0077B6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0077B6" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#48CAE4" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.9"/>
+    </linearGradient>
+    <mask id="gridMask"><rect width="1000" height="320" fill="url(#gridFade)"/></mask>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#90E0EF"/>
+      <stop offset="1" stop-color="#00B4D8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="2 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00B4D8"/>
+      <stop offset="1" stop-color="#90E0EF"/>
+    </linearGradient>
+
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#0077B6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00B4D8"/>
+      <stop offset="1" stop-color="#0077B6" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="2 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="blur40" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000814" flood-opacity="0.6"/>
+    </filter>
+
+    <clipPath id="card"><rect width="1000" height="320" rx="22"/></clipPath>
+    
+  <clipPath id="clipT0">
+    <rect x="88" y="190" height="36" width="0">
+      <animate attributeName="width" dur="12.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.0035;0.0070;0.0105;0.0139;0.0174;0.0209;0.0244;0.0279;0.0314;0.0348;0.0383;0.0418;0.0453;0.0488;0.0523;0.0558;0.0592;0.0627;0.0662;0.0697;0.0732;0.0767;0.0802;0.0836;0.0871;0.0906;0.0941;0.0976;0.1011;0.1045;0.1080;0.1115;0.3133" values="15.2;28.4;41.6;54.8;68.0;81.2;94.4;107.6;120.8;134.0;147.2;160.4;173.6;186.8;200.0;213.2;226.4;239.6;252.8;266.0;279.2;292.4;305.6;318.8;332.0;345.2;358.4;371.6;384.8;398.0;411.2;424.4;437.6;0.0"/>
+    </rect>
+  </clipPath>
+  <clipPath id="clipT1">
+    <rect x="88" y="190" height="36" width="0">
+      <animate attributeName="width" dur="12.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.3333;0.3373;0.3413;0.3452;0.3492;0.3532;0.3571;0.3611;0.3651;0.3690;0.3730;0.3770;0.3809;0.3849;0.3889;0.3928;0.3968;0.4007;0.4047;0.4087;0.4126;0.4166;0.4206;0.4245;0.4285;0.4325;0.4364;0.4404;0.4444;0.6467" values="0.0;15.2;28.4;41.6;54.8;68.0;81.2;94.4;107.6;120.8;134.0;147.2;160.4;173.6;186.8;200.0;213.2;226.4;239.6;252.8;266.0;279.2;292.4;305.6;318.8;332.0;345.2;358.4;371.6;384.8;0.0"/>
+    </rect>
+  </clipPath>
+  <clipPath id="clipT2">
+    <rect x="88" y="190" height="36" width="0">
+      <animate attributeName="width" dur="12.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.0000;0.6667;0.6700;0.6734;0.6768;0.6802;0.6836;0.6870;0.6903;0.6937;0.6971;0.7005;0.7039;0.7073;0.7106;0.7140;0.7174;0.7208;0.7242;0.7275;0.7309;0.7343;0.7377;0.7411;0.7445;0.7478;0.7512;0.7546;0.7580;0.7614;0.7648;0.7681;0.7715;0.7749;0.7783;0.9800" values="0.0;15.2;28.4;41.6;54.8;68.0;81.2;94.4;107.6;120.8;134.0;147.2;160.4;173.6;186.8;200.0;213.2;226.4;239.6;252.8;266.0;279.2;292.4;305.6;318.8;332.0;345.2;358.4;371.6;384.8;398.0;411.2;424.4;437.6;450.8;0.0"/>
+    </rect>
+  </clipPath>
+
+    <style>
+      .name { font-family: 'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif; font-weight: 800; font-size: 70px; letter-spacing: -2px; }
+      .tag  { font-family: 'Fira Code', 'JetBrains Mono', 'SF Mono', Consolas, Menlo, monospace; font-size: 22px; fill: #CAF0F8; }
+      .prompt { font-family: 'Fira Code', 'JetBrains Mono', 'SF Mono', Consolas, Menlo, monospace; font-size: 22px; fill: #00B4D8; font-weight: 700; }
+      .code { font-family: 'Fira Code', 'JetBrains Mono', 'SF Mono', Consolas, Menlo, monospace; font-size: 14px; }
+      .file { font-family: 'Fira Code', 'JetBrains Mono', 'SF Mono', Consolas, Menlo, monospace; font-size: 12px; fill: #6E8BA8; }
+      .kw { fill: #FF7B72; } .var { fill: #79C0FF; } .key { fill: #90E0EF; } .str { fill: #7EE787; } .pn { fill: #8B9DB3; }
+
+      .rise { animation: rise 1s cubic-bezier(.2,.7,.2,1) both; }
+      .d1 { animation-delay: .15s; } .d2 { animation-delay: .45s; }
+      .ln { animation: rise .55s ease-out both; }
+      @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+      .bar { transform-box: fill-box; transform-origin: left center; animation: grow .9s cubic-bezier(.2,.7,.2,1) .35s both; }
+      @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+      .win { animation: rise 1s cubic-bezier(.2,.7,.2,1) .3s both; }
+      @media (prefers-reduced-motion: reduce) { .rise,.ln,.bar,.win { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="320" fill="url(#bg)"/>
+    <rect width="1000" height="320" fill="url(#grid)" mask="url(#gridMask)"/>
+    <rect width="1000" height="320" fill="url(#glowL)"/>
+    <rect width="1000" height="320" fill="url(#glowR)"/>
+
+    <!-- slow drifting light -->
+    <circle cx="820" cy="160" r="110" fill="#00B4D8" opacity="0.22" filter="url(#blur40)">
+      <animate attributeName="cx" values="820;860;820" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="160;190;160" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Name -->
+    <g class="rise d1">
+      <text x="56" y="150" class="name" fill="url(#nameGrad)">Amr Mahmoud</text>
+    </g>
+    <rect class="bar" x="60" y="168" width="96" height="5" rx="2.5" fill="url(#barGrad)"/>
+
+    <!-- Typed tagline -->
+    <g class="rise d2">
+      <text x="60" y="214" class="prompt">&gt;</text>
+      <text x="88" y="214" class="tag" clip-path="url(#clipT0)">Full-Stack / MEAN Stack Developer</text><text x="88" y="214" class="tag" clip-path="url(#clipT1)">CS Student @ Cairo University</text><text x="88" y="214" class="tag" clip-path="url(#clipT2)">Building scalable web applications</text>
+    </g>
+
+    <!-- Code window -->
+    <g class="win" filter="url(#shadow)">
+      <rect x="600" y="46" width="352" height="228" rx="14" fill="#0A1626" fill-opacity="0.94" stroke="#00B4D8" stroke-opacity="0.35"/>
+      <path d="M600 60a14 14 0 0 1 14-14h324a14 14 0 0 1 14 14v26H600z" fill="#0F2038"/>
+      <circle cx="624" cy="66" r="5.5" fill="#FF5F56"/>
+      <circle cx="643" cy="66" r="5.5" fill="#FFBD2E"/>
+      <circle cx="662" cy="66" r="5.5" fill="#27C93F"/>
+      <text x="776" y="70" text-anchor="middle" class="file">developer.js</text>
+      <line x1="600" y1="86" x2="952" y2="86" stroke="#00B4D8" stroke-opacity="0.18"/>
+
+      <g class="code" xml:space="preserve" style="white-space:pre">
+        <text x="626" y="118" class="ln" style="animation-delay:.9s"><tspan class="kw">const</tspan> <tspan class="var">amr</tspan> <tspan class="pn">= {</tspan></text>
+        <text x="646" y="143" class="ln" style="animation-delay:1.15s"><tspan class="key">role</tspan><tspan class="pn">:</tspan> <tspan class="str">"Full-Stack Developer"</tspan><tspan class="pn">,</tspan></text>
+        <text x="646" y="168" class="ln" style="animation-delay:1.4s"><tspan class="key">stack</tspan><tspan class="pn">:</tspan> <tspan class="str">"MEAN + React"</tspan><tspan class="pn">,</tspan></text>
+        <text x="646" y="193" class="ln" style="animation-delay:1.65s"><tspan class="key">studying</tspan><tspan class="pn">:</tspan> <tspan class="str">"Cairo University"</tspan><tspan class="pn">,</tspan></text>
+        <text x="646" y="218" class="ln" style="animation-delay:1.9s"><tspan class="key">focus</tspan><tspan class="pn">:</tspan> <tspan class="str">"Scalable Web Apps"</tspan><tspan class="pn">,</tspan></text>
+        <text x="626" y="243" class="ln" style="animation-delay:2.15s"><tspan class="pn">};</tspan></text>
+        <rect x="651" y="231" width="8" height="15" rx="1.5" fill="#00B4D8">
+          <animate attributeName="opacity" values="1;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- moving edge light -->
+    <rect x="0" y="314" width="1000" height="6" fill="url(#edgeGrad)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="319" rx="22" fill="none" stroke="#00B4D8" stroke-opacity="0.22"/>
+</svg>
